@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gelişim</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous"> 
+
+<style>
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .card{
+        margin: 0 auto;
+        width: 40%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) ;
+        border-radius: 5px;
+        -webkit-transition: box-shadow 0.3s;
+        transition: box-shadow 0.3s;
+        position: relative;
+    }
+
+   
+
+    .mt20{
+        margin-top: 20px;
+    }
+   
+   .card-image{
+       width:25%;
+    -webkit-transition: opactiy 200ms ease;
+       transition: opactiy 0.3S linear;
+   }
+
+   .card-image:hover{
+       opacity: 0.8;
+       cursor: pointer;
+
+   }
+
+   .card:hover{
+       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   }
+
+   .card-body{
+       padding: 10px 16px;
+       position: absolute;
+       bottom: 25px;
+       left: 50px;
+       right: 10px;
+       text-align: center;
+   }
+
+   .card title{
+       margin-bottom: 5px ;
+       font-size: 22px ;
+       
+
+   }
+
+   .card-text{
+       font-weight: 700;
+
+   }
+    
+   .card-text a{
+       color:rgb(24, 23, 23) ;
+       text-decoration: none;
+       transition: all 0.4s; 
+   }
+
+   .card-text a:hover{
+    color: #da4453; ;
+     }
+
+     #nav{
+         background-color: #333 ;
+     }
+
+     #nav ul{
+         list-style-type:none ;
+         overflow: hidden;
+     }
+
+     #nav li{
+         float:left;
+     }
+
+     #nav li a{
+         display: inline-block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         transition: background-color 0.4s linear;
+        
+     }
+
+     #nav li a:hover{
+         background-color: #111;
+
+     }
+
+     .active{
+         background: color #dd4453; ;
+     }
+     
+   
+
+   
+   
+
+
+  
+   
+</style>
+</head>
+<body>
+
+    <div id="nav">
+        <div class="card"></div>
+
+          <ul>
+              <li><a href="tasarla.html"><i class="fas fa-home"></i></a></li>
+              <li><a href="blog.html">Kültür & Sanat</a></li>
+              <li><a href="blog3.html">Sağlık & Yoga</a></li>
+              <li><a href=""> 1 Yeni Bilgi</a></li>
+              <li style="float: right;"><a href="kayı-ol.html" class="active"> Kayıt ol</a></li>
+              <li style="float: right;"><a href="kayı-ol.html" class="active"> Giriş Yap</a></li>
+              
+
+          </ul>
+
+        </div>
+
+    </div>
+
+   
+
+
+    <div class="card mt20">
+        
+        <img src="img/fotiş.jpeg" alt="" class="card-image">
+       
+        <div class="card-body">
+            <h4 class="card-title">
+                Günümüzün Sorunu
+            </h4>
+            <p class="card-text">
+                <a href="#"> Stres Oku <span> <i class="fas fa-angle-double-right"></i> </span></a>
+
+            </p>
+           
+            
+        </div>
+    </div>
+
+   
+
+    
+
+   
+
+
+
+    
+    
+
+
+
+
+
+    
+
+  
+</body>
+</html>
